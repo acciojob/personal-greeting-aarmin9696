@@ -19,7 +19,7 @@ const SimpleForm = () => {
         onChange={manageName}
         value={name}
       />
-      {name && <h1>Hello {name}!</h1>}
+      {name && <p>Hello {name}!</p>}
     </div>
   );
 };
